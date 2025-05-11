@@ -1,0 +1,98 @@
+.dark-mode {
+    background-color: #1d2125; 
+    color: white; 
+}
+
+
+
+.light-theme {
+    background-color: #F0F8FF; 
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход между темами */
+    font-family: 'Arial', sans-serif; /* Шрифт для всего контента */
+}
+
+.light-theme .header {
+    background-color: #0055ff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.light-theme .main {
+    background-color: #F0F8FF; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: rgb(56, 61, 68);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.light-theme .sidebar {
+    background-color: #0050f0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.buttonswitch{
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    gap:10px;
+}
+
+.light-theme .operations-page,
+.light-theme .stats{
+    background-color: aliceblue;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 20px;
+}
+
+.light-theme .stats,
+.light-theme .history-text
+{
+    color: rgb(40, 35, 35)
+}
+
+.light-theme .main-content{
+    background-color: #0347d1;
+}
+.light-theme .tab.active,
+.light-theme .tab.active::after{
+    color: #5cff0b;
+    
+}
+.light-theme .card-header,
+.light-theme .subtitle{
+    background-color: rgb(136, 143, 149);
+    color: white;
+}
+
+
+/* Стили для светлой темы */
+.light-theme .operation-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: hsl(190deg, 50%, 60%); /* Светлый фон для кнопок */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .light-theme .operation-button:hover {
+    background-color: hsl(190deg, 50%, 70%); /* Немного светлее при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для эффекта */
+  }
+  
+  .light-theme .operation-button.active {
+    background-color: hsl(190deg, 60%, 50%); /* Более яркий активный цвет */
+    border-color: hsl(190deg, 70%, 40%); /* Темная граница для активной кнопки */
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+

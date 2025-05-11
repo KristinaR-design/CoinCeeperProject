@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(1deg, #8e06e9, #04d4df);
+}
+
+
+.login-container {
+    align-self: center;
+    width: 30%;
+    height: 15%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 25px;
+    background: #f4f4f4;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 27px;
+  }
+  
+  .login-container input:focus {
+    outline: none;
+    border-color: #03070b;
+    box-shadow: 0px 0px 5px rgba(69, 70, 72, 0.5);
+  }
+  
+  .login-container button {
+    width: 96%;
+    padding: 10px;
+    background: #000000;
+    border: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  
+  .login-container button:hover {
+    background: #595c60;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .reg__b{
+    cursor: pointer;
+    color:darkblue;
+  }
+
+  .edit-button{
+    background-color: transparent;
+    border: 0px;
+  }
+
+  .register{
+    color: black;
+  }
+
+  .register a {
+    color: rgb(43, 1, 255);
+  }
+
+
+  @media (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    padding: 16px;
+    margin: 60px auto;
+  }
+
+  .login-container h2 {
+    font-size: 24px;
+  }
+
+  .login-container input {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .login-container button {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .error {
+    font-size: 12px;
+  }
+}

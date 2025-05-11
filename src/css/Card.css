@@ -1,0 +1,81 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 37px auto;
+  width: 10% !important;
+}
+
+  
+  .operation-card {
+  /* flex: 1 1 calc(33.33% - 20px); 3 карточки в ряд */
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: white;
+}
+  .card-header {
+    padding: 15px;
+    background-color: #dfe1eb;
+    border-bottom: 1px solid #e0e0e0;
+    color: rgb(46, 49, 54);
+    position: relative;
+  }
+  
+  .card-header h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    width: 50%;
+    position: relative;
+    float: left;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    clear: both;
+  }
+  
+  .card-body {
+    padding: 15px;
+    background-color: #f5f7ff;
+  }
+
+
+  @media (max-width: 600px) {
+    .operation-card {
+      flex: 0 0 100%;
+    }
+  }
+  
+  .card-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    position: relative;
+    float: right;
+  }
+  
+  .icon-button img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: right;
+    @media (max-width: 700px){
+      width: 20px;
+      height: 20px;
+    }
+  }
