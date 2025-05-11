@@ -1,0 +1,66 @@
+.main {
+    background-color: #2d2f33;
+    display: flex;
+    color: white;
+    padding: 10px;
+    gap: 5px;
+    align-self: center;
+    padding-bottom: 0%;
+}
+
+.from-input,
+.type-input,
+.bill-input,
+.date-input,
+.comment-input,
+.input-button{
+    width: 18%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 50px;
+    /* align-self: center; */
+}
+
+.input-button{
+    background-color:hsl(190deg, 50%, 40%);
+    width: 50px;
+    border-width: 0px;
+}
+
+
+.operation-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    align-content: center;
+  }
+  
+  .operation-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: hsl(190deg, 30%, 20%);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    align-self: center;
+  }
+  
+  .operation-button:hover {
+    background-color: hsl(190deg, 30%, 25%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .operation-button.active {
+    background-color: hsl(190deg, 40%, 30%);
+    border-color: hsl(190deg, 50%, 40%);
+    transform: scale(1.05);
+  }
+
+
